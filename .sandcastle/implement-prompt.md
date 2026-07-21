@@ -1,8 +1,8 @@
 # TASK
 
-Fix issue {{TASK_ID}}: {{ISSUE_TITLE}}
+Use the `/skill:implement` skill to implement issue {{TASK_ID}}: {{ISSUE_TITLE}}.
 
-Pull in the issue using `gh issue view <ID>`. If it has a parent PRD, pull that in too.
+Treat this issue and any parent PRD as the spec/tickets passed to the skill. Pull in the issue using `gh issue view <ID>`. If it has a parent PRD, pull that in too.
 
 Only work on the issue specified.
 

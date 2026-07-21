@@ -1,6 +1,8 @@
 # TASK
 
-Review the code changes on branch `{{BRANCH}}` and improve code clarity, consistency, and maintainability while preserving exact functionality.
+Use the `/skill:code-review` skill to review the code changes on branch `{{BRANCH}}` against its fixed point and originating issue/PRD.
+
+Use the branch's merge-base with the current target branch as the fixed point. Follow the skill's two independent review axes: **Standards** and **Spec**. After reporting the findings, fix all valid findings directly on `{{BRANCH}}` while preserving the intended functionality.
 
 # CONTEXT
 
